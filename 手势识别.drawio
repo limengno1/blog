@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="第 1 页" id="moVni4Yp8ZPbrSp9X3xw">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-1" value="视频输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="83" y="110" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-2" value="视频分帧模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="67" y="214" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-3" value="手势检测模块-YOLOv8" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="37" y="318" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-4" value="手部关键点提取-MediaPipe" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="422" width="250" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-5" value="动态手势分类-3D CNN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="38" y="526" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-6" value="上下文数据融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="59" y="630" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-7" value="DeepSeek语义生成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="48" y="734" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-8" value="输出判罚解释" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="67" y="838" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="C8JFkZd2Ti5T9vTChvGr-1" target="C8JFkZd2Ti5T9vTChvGr-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="C8JFkZd2Ti5T9vTChvGr-2" target="C8JFkZd2Ti5T9vTChvGr-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="C8JFkZd2Ti5T9vTChvGr-3" target="C8JFkZd2Ti5T9vTChvGr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="C8JFkZd2Ti5T9vTChvGr-4" target="C8JFkZd2Ti5T9vTChvGr-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="C8JFkZd2Ti5T9vTChvGr-5" target="C8JFkZd2Ti5T9vTChvGr-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="C8JFkZd2Ti5T9vTChvGr-6" target="C8JFkZd2Ti5T9vTChvGr-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8JFkZd2Ti5T9vTChvGr-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="C8JFkZd2Ti5T9vTChvGr-7" target="C8JFkZd2Ti5T9vTChvGr-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
